@@ -29,7 +29,18 @@ body {
 **/
 
 #banner {
-  width: 100%;
+
+    /* The image used */
+    background-image: url("banner-01.jpg");
+
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #perfil {
